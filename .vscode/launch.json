@@ -8,12 +8,12 @@
             // Resolved by CMake Tools:
             "program": "${command:cmake.launchTargetPath}",
             "args": [
-                "-d",
-                "-v",
+                "-t",
+                "artic",
                 "-O2",
-                "/home/misha/projects/OpenShadingLanguage/testy/lambert.osl",
+                "/home/misha/projects/OpenShadingLanguage/testy/mandelbrot.osl",
                 "-o",
-                "/home/misha/projects/OpenShadingLanguage/testy/lambert.oso"
+                "/home/misha/projects/OpenShadingLanguage/testy/mandelbrot.oso"
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
